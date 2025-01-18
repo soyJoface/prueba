@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+footer {
+    background-color: lightslategray;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.2em;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: darkslategrey;
+    border-radius: 0.5em;
+    border: none;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.main-section {
+    padding: 5em;
+}
+
+.main-section h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #ccc;
+}
+
+.quote blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1.8em;
+    line-height: 1.5;
+}
+
+.quote blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.article-sign .container {
+    background-color: lightblue;
+    padding: 5em;
+    margin-top: 3em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+}
+
